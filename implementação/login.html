@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/stely.css">
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script  src='js/script.js'> </script>
+    </head>
+    <body>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sobre.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Parceria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="calendario.html">Calendario</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="trabalhos.html">Trabalhos</a>
+              </li>
+          </ul>
+          <h1 id="titulo">Parceria</h1>
+
+          <form id="quadrado">
+      
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="form-floating mb-3">
+                    <input type="Nome" class="form-control" id="floatingInput" placeholder="Jojo jojo">
+                    <label for="floatingInput">Nome</label>
+                  </div>
+                <div class="form-floating mb-3">
+                    <input type="telefone" class="form-control" id="floatingInput" placeholder="981253577">
+                    <label for="floatingInput">Telefone</label>
+                  </div>
+              
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Email</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="senha" class="form-control" id="floatingPassword" placeholder="senha">
+                    <label for="floatingPassword">Senha</label>
+                  </div>
+                  <div class="mb-3">
+                    <div class="mb-3"></div>
+                    <label for="validationTextarea" class="form-label">menssage</label>
+                    <textarea class="form-control" id="validationTextarea" placeholder="escreva sua menssage" required></textarea>
+                    <div class="invalid-feedback">
+                      Please enter a message in the textarea.
+                    </div>
+                  </div>
+                  <br>
+                  <input type="button"  value="Enviar" onclick="submeterDados(); return false">
+                  <input type="reset" id="bnt" value="Limpar">
+      
+          </form>
+
+          
+          
+          <span class="d" style="max-width: 150px;">
+          <h4>Email:</h4><br>
+            casaafropot@gmail.com 
+        <h4>Endereço</h4> <br>
+            Casa Afropoty rua Maeestro Tom Jobin, 12A.Neopolis, Natal RN
+            
+          </span>
+
+         
+            
+
+    </body>
+</html>
